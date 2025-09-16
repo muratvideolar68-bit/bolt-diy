@@ -207,13 +207,14 @@
     "wrangler": "^4.5.1"
   },
   "resolutions": {
-    "@typescript-eslint/utils": "^8.0.0-alpha.30"
-  },
-   "packageManager": "pnpm@9.14.4",
+  "@typescript-eslint/utils": "^8.0.0-alpha.30"
+},
+"packageManager": "pnpm@9.14.4",
 "scripts": {
   "dev": "node pre-start.cjs && remix vite:dev",
   "build": "remix vite:build",
   "build:web": "vite build",
   "preview": "vite preview"
+}
 }
 
